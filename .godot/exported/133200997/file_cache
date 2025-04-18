@@ -1,7 +1,8 @@
-res://scenes/coin.tscn::cc025abc5360a19c7a6a3532a184ba1c::1743791726::res://.godot/exported/133200997/export-96b2131180b71dd158e52c5527d22dd4-coin.scn
-res://scenes/game.tscn::86a32bbe4ed42c7f0ec68e5dfb79fa62::1743791726::res://.godot/exported/133200997/export-c2a7af834e91ff64325daddf58e45dc0-game.scn
-res://scenes/killzone.tscn::479f5516ca082844f09b1507871c82a3::1743791726::res://.godot/exported/133200997/export-494bf1445653c44a49a39c8f8b1ce8d0-killzone.scn
-res://scenes/music.tscn::32b1d5a94b46f11791287af5cc1780d1::1743791726::res://.godot/exported/133200997/export-bfd8027ae1117ff610be6f2619a76089-music.scn
-res://scenes/platform.tscn::d0f9d7fc4be6156f65e7cda68ef877bd::1743791726::res://.godot/exported/133200997/export-cc2f727180cd42d9c13434cb55b1ce69-platform.scn
-res://scenes/player.tscn::69c82f1b2b7695342d2f7e389ca2cc65::1743791726::res://.godot/exported/133200997/export-234fb6894ec6226e856ab7f825500d3d-player.scn
-res://scenes/slime.tscn::32083247b24b7cd4cd086a508e6db429::1743791726::res://.godot/exported/133200997/export-cfec31ac835903e5b6c8af87b017aecf-slime.scn
+res://scenes/coin.tscn::db7242a6b4aded18cd957af1acc468ce::1745004894::res://.godot/exported/133200997/export-96b2131180b71dd158e52c5527d22dd4-coin.scn
+res://scenes/game.tscn::0a05b68a154e31fa4a0476ac367328eb::1745004894::res://.godot/exported/133200997/export-c2a7af834e91ff64325daddf58e45dc0-game.scn
+res://scenes/killzone.tscn::de5903b19f7ed159c3e4b0c402f35eba::1745004894::res://.godot/exported/133200997/export-494bf1445653c44a49a39c8f8b1ce8d0-killzone.scn
+res://scenes/music.tscn::32b1d5a94b46f11791287af5cc1780d1::1745004894::res://.godot/exported/133200997/export-bfd8027ae1117ff610be6f2619a76089-music.scn
+res://scenes/platform.tscn::617e4cccb482477e5aba1df94b6b9280::1745004894::res://.godot/exported/133200997/export-cc2f727180cd42d9c13434cb55b1ce69-platform.scn
+res://scenes/player.tscn::6dcb0e3bbbb9d7bf8b32a56c29ba1486::1745005285::res://.godot/exported/133200997/export-234fb6894ec6226e856ab7f825500d3d-player.scn
+res://scenes/slime.tscn::733188f3c33dc778a23a5ca20b1495a8::1745004894::res://.godot/exported/133200997/export-cfec31ac835903e5b6c8af87b017aecf-slime.scn
+res://scenes/game2.tscn::24b7056d867d4074155ec39988f01cbb::1745004894::res://.godot/exported/133200997/export-f13240ea3d07edfea86a3b9dc7c75ee4-game2.scn
