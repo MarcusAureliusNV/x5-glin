@@ -1,8 +1,7 @@
-[gd_scene load_steps=16 format=3 uid="uid://djtwgpkjuogoo"]
+[gd_scene load_steps=16 format=3 uid="uid://came053iuxedu"]
 
 [ext_resource type="Script" uid="uid://cpn4fn3lgaarw" path="res://scripts/game_manager.gd" id="1_l4ihi"]
 [ext_resource type="PackedScene" uid="uid://dqnaqj8yb6hwd" path="res://scenes/player.tscn" id="1_rbmkf"]
-[ext_resource type="FontFile" uid="uid://c53kogtyjwsss" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="2_nlliu"]
 [ext_resource type="Texture2D" uid="uid://d0q2g65ahgok" path="res://assets/sprites/world_tileset.png" id="2_r1crl"]
 [ext_resource type="PackedScene" uid="uid://bgv5v2fxqlswe" path="res://scenes/platform.tscn" id="3_cmfc3"]
 [ext_resource type="PackedScene" uid="uid://pqp5qaw561fr" path="res://scenes/coin.tscn" id="4_28cek"]
@@ -10,7 +9,9 @@
 [ext_resource type="PackedScene" uid="uid://d2w2i5h0lhc6l" path="res://scenes/slime.tscn" id="6_l0s6b"]
 [ext_resource type="FontFile" uid="uid://dbjl1e6kdxpl6" path="res://assets/fonts/PixelOperator8.ttf" id="7_8cblx"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ashvg"]
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_8j387"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8j387"]
 texture = ExtResource("2_r1crl")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -173,8 +174,10 @@ texture = ExtResource("2_r1crl")
 2:4/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_wvtw0"]
+resource_local_to_scene = true
+resource_name = "caca"
 physics_layer_0/collision_layer = 1
-sources/0 = SubResource("TileSetAtlasSource_ashvg")
+sources/0 = SubResource("TileSetAtlasSource_8j387")
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_cn5tm"]
 
@@ -216,23 +219,40 @@ _data = {
 &"move": SubResource("Animation_bm7kf")
 }
 
-[node name="Game" type="Node2D"]
+[node name="tutorial" type="Node2D"]
 
 [node name="GameManager" type="Node" parent="."]
 unique_name_in_owner = true
 script = ExtResource("1_l4ihi")
 
+[node name="notifDmg" type="Label" parent="GameManager"]
+material = SubResource("CanvasItemMaterial_8j387")
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 292.0
+offset_bottom = 55.0
+theme_override_colors/font_shadow_color = Color(0.782648, 0.0786391, 0.191183, 1)
+theme_override_fonts/font = ExtResource("7_8cblx")
+text = "¡Cuidado! Te quedan...
+X Vidas."
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
 [node name="ScoreLabel" type="Label" parent="GameManager"]
-offset_left = 513.0
-offset_top = -144.0
-offset_right = 618.0
-offset_bottom = -125.0
-theme_override_colors/font_color = Color(0.0980392, 0.313726, 0.752941, 1)
-theme_override_fonts/font = ExtResource("2_nlliu")
-theme_override_font_sizes/font_size = 8
-text = "You collected X coins."
+offset_left = 936.0
+offset_top = 20.0
+offset_right = 1105.0
+offset_bottom = 74.0
+theme_override_colors/font_color = Color(0.0392157, 1, 0.239216, 1)
+theme_override_fonts/font = ExtResource("7_8cblx")
+text = "Has recolectado X monedas."
 horizontal_alignment = 1
 autowrap_mode = 2
+
+[node name="Timer" type="Timer" parent="GameManager"]
+wait_time = 5.0
+one_shot = true
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_wvtw0")
@@ -307,34 +327,37 @@ position = Vector2(529, 81)
 [node name="Labels" type="Node" parent="."]
 
 [node name="Label" type="Label" parent="Labels"]
-offset_left = -119.0
-offset_top = 82.0
-offset_right = -23.0
-offset_bottom = 100.0
+offset_left = -133.0
+offset_top = 23.0
+offset_right = -3.0
+offset_bottom = 41.0
 theme_override_colors/font_color = Color(0.0117647, 0.14902, 0.34902, 1)
 theme_override_fonts/font = ExtResource("7_8cblx")
 theme_override_font_sizes/font_size = 8
-text = "Space to jump."
+text = "¡Recoge las monedas!"
+metadata/_edit_use_anchors_ = true
 
 [node name="Label2" type="Label" parent="Labels"]
-offset_left = 368.0
-offset_top = 78.0
-offset_right = 464.0
-offset_bottom = 96.0
+offset_left = 350.0
+offset_top = 23.0
+offset_right = 485.0
+offset_bottom = 40.0
 theme_override_colors/font_color = Color(0.0117647, 0.14902, 0.34902, 1)
 theme_override_fonts/font = ExtResource("7_8cblx")
 theme_override_font_sizes/font_size = 8
-text = "Falling hurts..."
+text = "¡Cuidado con la caída!"
+metadata/_edit_use_anchors_ = true
 
 [node name="Label3" type="Label" parent="Labels"]
-offset_left = 704.0
-offset_top = -48.0
-offset_right = 800.0
-offset_bottom = -30.0
+offset_left = 721.0
+offset_top = -71.0
+offset_right = 818.0
+offset_bottom = -53.0
 theme_override_colors/font_color = Color(0.0980392, 0.313726, 0.752941, 1)
 theme_override_fonts/font = ExtResource("7_8cblx")
 theme_override_font_sizes/font_size = 8
-text = "Almost there..."
+text = "Ya casi estás..."
+metadata/_edit_use_anchors_ = true
 
 [node name="Label4" type="Label" parent="Labels"]
 offset_left = 520.0
@@ -344,5 +367,8 @@ offset_bottom = -145.0
 theme_override_colors/font_color = Color(0.0980392, 0.313726, 0.752941, 1)
 theme_override_fonts/font = ExtResource("7_8cblx")
 theme_override_font_sizes/font_size = 8
-text = "Great job!"
+text = "¡Buen trabajo!"
 horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[connection signal="timeout" from="GameManager/Timer" to="GameManager" method="_on_timer_timeout"]

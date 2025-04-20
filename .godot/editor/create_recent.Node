@@ -1,8 +1,14 @@
 Timer
-CanvasLayer
 Label
+AnimationPlayer
+TileMap
+AudioStreamPlayer
+AudioStreamPlayer2D
+Button
+HBoxContainer
+VBoxContainer
+Control
+CanvasLayer
 Sprite2D
 CollisionShape2D
 Area2D
-CharacterBody2D
-Node2D

@@ -19,14 +19,25 @@ func add_point():
 	if score < max_score:
 		score += 1
 
-		if score >= 1 and score <= 3:
-			score_label.text = "Has recolectado " + str(score) + " monedas. ¡Sigue así!"
-		elif score >= 4 and score <= 6:
-			score_label.text = "Has recolectado " + str(score) + " monedas. ¡Vas por buen camino!"
-		elif score >= 7 and score <= 8:
-			score_label.text = "Has recolectado " + str(score) + " monedas. ¡Casi llegas al máximo!"
-		else:
-			score_label.text = "¡Felicidades! ¡Has cogido todas las monediwis!"
+		if score == 1:
+			score_label.text = "Has recolectado " + str(score) + " moneda. ¡Del primer céntimo sale el primer millón!"
+		elif score == 2:
+			score_label.text = "Has recolectado " + str(score) + " monedas. Ya te da para un chicle."
+		elif score == 3:
+			score_label.text = "Has recolectado " + str(score) + " monedas. ¡Sólo te queda un 66.66% periódico!"
+		elif score == 4:
+			score_label.text = "Has recolectado " + str(score) + " monedas. En Japón este número suele asociarse con la muerte."
+		elif score == 5:
+			score_label.text = "4+1."
+		elif score == 6:
+			score_label.text = "Has recolectado " + str(score) + " monedas. Un 9 australiano."
+		elif score == 7:
+			score_label.text = "Has recolectado " + str(score) + " monedas. ¡777!"
+		elif score == 8:
+			score_label.text = "Has recolectado " + str(score) + " monedas. Infinitamente verticalizado."
+		elif score == 9:
+			score_label.text = "Has recolectado " + str(score) + " monedas. ¡Olé tú! ¡Todas las monedas recogidas!"
+		
 
 func rem_hp():
 	if hpAct == 3:
