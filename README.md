@@ -230,3 +230,31 @@ Este trabajo consta de las horas propuestas en la clase de Digitalización, y s�
 
 ## Muchas gracias por leer.
 
+
+***
+
+# Tercera Evaluación: ¿Qué hay nuevo?
+## Nuevas escenas
+  Estas incluyen menú principal, escena de muerte y de ganar, selección de mapas...
+
+---
+
+## Nuevos enemigos
+  En el segundo nivel se puede encontrar 2 nuevos enemigos: "Bicho" (Es un ente volador), y un Slime nuevo, más lento y distinto en general.
+
+---
+
+## Nuevas acciones para el personaje
+
+  Se añade la opción de rodar para un momento de invulnerabilidad al SHIFT, y se le incluyen vidas para no morirse al instante.
+
+---
+
+## Nuevos sonidos y sprites
+
+  _Para poder generar el segundo nivel (y algunas otras cosas como las interfaces de la vida o el cofre del primer nivel), he tenido que descargar nuevos paquetes de sprites y hacer un mundo nuevo con ellos. Además, también se incluyen nuevos sonidos y soundtracks para cada escena._
+  
+
+# No está muy bien escrito, pero me he quedado sin tiempo para redactar el readme. Lo siento mucho y gracias por leer, como siempre. 
+
+  **De todas maneras, lo explicaré mucho mejor en la presentación. ¡Gracias!**
