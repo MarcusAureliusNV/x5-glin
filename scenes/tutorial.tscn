@@ -1,6 +1,7 @@
-[gd_scene load_steps=16 format=3 uid="uid://o4bhwsdxqx30"]
+[gd_scene load_steps=21 format=3 uid="uid://o4bhwsdxqx30"]
 
 [ext_resource type="Script" uid="uid://cpn4fn3lgaarw" path="res://scripts/game_manager.gd" id="1_l4ihi"]
+[ext_resource type="Texture2D" uid="uid://b4h43ve5or1el" path="res://assets/black.jpg" id="1_nlqja"]
 [ext_resource type="PackedScene" uid="uid://dqnaqj8yb6hwd" path="res://scenes/player.tscn" id="1_rbmkf"]
 [ext_resource type="Texture2D" uid="uid://d0q2g65ahgok" path="res://assets/sprites/world_tileset.png" id="2_r1crl"]
 [ext_resource type="PackedScene" uid="uid://bgv5v2fxqlswe" path="res://scenes/platform.tscn" id="3_cmfc3"]
@@ -9,7 +10,61 @@
 [ext_resource type="PackedScene" uid="uid://d2w2i5h0lhc6l" path="res://scenes/slime.tscn" id="6_l0s6b"]
 [ext_resource type="FontFile" uid="uid://dbjl1e6kdxpl6" path="res://assets/fonts/PixelOperator8.ttf" id="7_8cblx"]
 
-[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_0tnpc"]
+[sub_resource type="Animation" id="Animation_ir15t"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_ssvqc"]
+resource_name = "fade_in"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_264po"]
+resource_name = "fade_out"
+length = 5.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 1.97, 3, 3.99),
+"transitions": PackedFloat32Array(1, 1.07178, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 0.313726), Color(1, 1, 1, 0.654902), Color(1, 1, 1, 0.905882), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_1kice"]
+_data = {
+&"RESET": SubResource("Animation_ir15t"),
+&"fade_in": SubResource("Animation_ssvqc"),
+&"fade_out": SubResource("Animation_264po")
+}
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_0epgs"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gee14"]
 texture = ExtResource("2_r1crl")
@@ -222,16 +277,28 @@ _data = {
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 editor_description = "aaaaaaaaaa"
 
+[node name="Black" type="Sprite2D" parent="CanvasLayer"]
+z_index = 4
+position = Vector2(578, 334.5)
+scale = Vector2(1.39765, 1.44142)
+texture = ExtResource("1_nlqja")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="CanvasLayer/Black"]
+libraries = {
+&"": SubResource("AnimationLibrary_1kice")
+}
+autoplay = "fade_in"
+
 [node name="GameManager" type="Node" parent="CanvasLayer"]
 unique_name_in_owner = true
 script = ExtResource("1_l4ihi")
 
 [node name="notifDmg" type="Label" parent="CanvasLayer/GameManager"]
-material = SubResource("CanvasItemMaterial_0tnpc")
-offset_left = 20.0
-offset_top = 20.0
-offset_right = 292.0
-offset_bottom = 55.0
+material = SubResource("CanvasItemMaterial_0epgs")
+offset_left = 30.0
+offset_top = 18.0
+offset_right = 302.0
+offset_bottom = 53.0
 theme_override_colors/font_shadow_color = Color(0.782648, 0.0786391, 0.191183, 1)
 theme_override_fonts/font = ExtResource("7_8cblx")
 theme_override_font_sizes/font_size = 25
@@ -241,25 +308,35 @@ vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
 
 [node name="ScoreLabel" type="Label" parent="CanvasLayer/GameManager"]
-offset_left = 791.0
-offset_top = 24.0
-offset_right = 1106.0
-offset_bottom = 391.0
+offset_left = 803.0
+offset_top = 23.0
+offset_right = 1118.0
+offset_bottom = 390.0
 theme_override_colors/font_color = Color(1, 1, 0.04, 1)
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("7_8cblx")
-theme_override_font_sizes/font_size = 28
+theme_override_font_sizes/font_size = 22
 text = "Has recolectado X monedas.
-
-^^^
-Aquí las monedas que llevas.
-Recuerda, 9 en total."
+"
 horizontal_alignment = 1
 autowrap_mode = 2
+metadata/_edit_use_anchors_ = true
 
 [node name="Timer" type="Timer" parent="CanvasLayer/GameManager"]
 wait_time = 5.0
 one_shot = true
+
+[node name="Black2" type="Sprite2D" parent="CanvasLayer/GameManager/Timer"]
+z_index = 3
+position = Vector2(578, 334.5)
+scale = Vector2(1.39765, 1.44142)
+texture = ExtResource("1_nlqja")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="CanvasLayer/GameManager/Timer/Black2"]
+libraries = {
+&"": SubResource("AnimationLibrary_1kice")
+}
+autoplay = "fade_in"
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_wvtw0")

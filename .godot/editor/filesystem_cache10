@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1745107229
-export_presets.cfg::TextFile/TextFile::-1::1745007303::0::1::::<><><>0<>0<><>::
-main_menu.gd::GDScript::6462302753008814305::1745105578::0::1::::<>Control<><>0<>0<><>::
+::res://::1745182098
+export_presets.cfg::TextFile/TextFile::-1::1745146456::0::1::::<><><>0<>0<><>::
+main_menu.gd::GDScript::6462302753008814305::1745175457::0::1::::<>Control<><>0<>0<><>::
 README.md::TextFile/TextFile::-1::1743792169::0::1::::<><><>0<>0<><>::
-::res://assets/::1745099929
+::res://assets/::1745148679
 black.jpg::CompressedTexture2D/CompressedTexture2D::4438159699046063651::1745099893::1745099929::1::::<><><>0<>0<>4e89c3e2bee1d3cbe91f4f9c599da039<>res://.godot/imported/black.jpg-1635683817992672e49a5a92adaf3eaf.ctex::
 ::res://assets/fonts/::1745082438
 20250414branchesFont.png::CompressedTexture2D/CompressedTexture2D::1349704803630876923::1744817143::1745082438::1::::<><><>0<>0<>2aaaa0aae9646392800bdc86b007fac1<>res://.godot/imported/20250414branchesFont.png-2a1c8dd703213758222193084090bee4.ctex::
@@ -14,36 +14,42 @@ PixelOperator8.ttf::FontFile/FontFile::7248744870507454393::1714300325::17435769
 Tiny RPG - Mana Branch.ttf::FontFile/FontFile::9014548951648818293::1744816834::1745082438::1::::<><><>0<>0<>31d909ad4eb760cbe324edf16dcc8f0f<>res://.godot/imported/Tiny RPG - Mana Branch.ttf-0b493b3dffc061c2adcc95ff94645b19.fontdata::
 Tiny RPG - Mana Root.ttf::FontFile/FontFile::1628510061214261663::1744816924::1745082438::1::::<><><>0<>0<>9e5fe237918585798ba368f6d1b952d1<>res://.godot/imported/Tiny RPG - Mana Root.ttf-ff1f993578af6bd6b8159a965aef7ff7.fontdata::
 Tiny RPG - Mana Trunk.ttf::FontFile/FontFile::5459616309622112915::1744813518::1745082438::1::::<><><>0<>0<>758dc782cb8ace0b21b63934def8c5bc<>res://.godot/imported/Tiny RPG - Mana Trunk.ttf-fd58aba2bbfe50493545b9f0a6dee948.fontdata::
-::res://assets/music/::1745106617
-dungeon.mp3::AudioStreamMP3/AudioStreamMP3::8155290272098235088::1745097437::1745097843::1::::<><><>0<>0<>47013304c9bf7a2df7f26e1d69895c14<>res://.godot/imported/dungeon.mp3-e20de189a690a161b61b41df13429c9b.mp3str::
+::res://assets/music/::1745161680
+dungeon.mp3::AudioStreamMP3/AudioStreamMP3::8155290272098235088::1745097437::1745161680::1::::<><><>0<>0<>97ae5fe03ac5ea1b8258f3c05fee2c6f<>res://.godot/imported/dungeon.mp3-e20de189a690a161b61b41df13429c9b.mp3str::
 floating_dream.wav::AudioStreamWAV/AudioStreamWAV::1085755284579784090::1724531415::1745097941::1::::<><><>0<>0<>d5188e253a53e0a51238dceff40d0b94<>res://.godot/imported/floating_dream.wav-1e6c783b2c1f45d9006f19a168b5b122.sample::
 gentle_breeze.wav::AudioStreamWAV/AudioStreamWAV::4661002738783901398::1724531039::1745097845::1::::<><><>0<>0<>7ad6db592362ba4cad73fc97da3fa5c1<>res://.godot/imported/gentle_breeze.wav-a8878d37ba98afb230a810a5c895a3af.sample::
-mononono.tscn::PackedScene::9156269116584578485::1745106617::0::1::::<><><>0<>0<><>::uid://bped01tsjeycn::::res://assets/sprites/coin.png<>res://scripts/coin.gd<>uid://hxv3svfwkg67::::res://assets/sounds/coin.wav
 phantom.wav::AudioStreamWAV/AudioStreamWAV::2862818708755150558::1724581482::1745099610::1::::<><><>0<>0<>c8e2391f489622e89ac52db18e2304f4<>res://.godot/imported/phantom.wav-fe3d8fb13eeee34ee152d0a3bf892c76.sample::
 time_for_adventure.mp3::AudioStreamMP3/AudioStreamMP3::910032320464020072::1714300325::1743576909::1::::<><><>0<>0<>235d2f19bebcb5857e274ac8e4989bc0<>res://.godot/imported/time_for_adventure.mp3-b8a49ae1cfc83b211be9d82e6e985655.mp3str::
-::res://assets/nuevosSprites/::1745080717
+::res://assets/nuevosSprites/::1745182809
 0x72_DungeonTilesetII_v1.7.png::CompressedTexture2D/CompressedTexture2D::2256072355638142033::1683303061::1745080717::1::::<><><>0<>0<>e3f64d152d7afcd96dd1517bb507019a<>res://.godot/imported/0x72_DungeonTilesetII_v1.7.png-52a8b0416d738fdf8822b91651bc07cf.ctex::
 Dungeon Tile Set.png::CompressedTexture2D/CompressedTexture2D::1886258234399453100::1745080568::1745080717::1::::<><><>0<>0<>b53f16e231b3b7bfbbf24e1bd3867516<>res://.godot/imported/Dungeon Tile Set.png-20ba350b7f0a7e08080148af5d9ab2cf.ctex::
-::res://assets/sounds/::1743576909
+yo.jpg::CompressedTexture2D::8613976006343750315::1745182809::1745182810::1::::<><><>0<>0<>a4e3d09eaff36959aea42d5d21aeb829<>res://.godot/imported/yo.jpg-f72c3857197077d03f4c3b9a5ea5252a.ctex::
+::res://assets/quit/::1745148998
+luigi.jpeg::CompressedTexture2D/CompressedTexture2D::5811887819763172702::1745148998::1745148998::1::::<><><>0<>0<>da2a940aa0be9395d7fff70a3cb0747b<>res://.godot/imported/luigi.jpeg-290d5e4f77782cbe21329c65ffb03dac.ctex::
+scream.mp3::AudioStreamMP3/AudioStreamMP3::1857600686802421573::1745148619::1745148712::1::::<><><>0<>0<>2591082b96de0b7040a84604973cc4b1<>res://.godot/imported/scream.mp3-a6a0c8898c5ce57a39fc2962c3c313b6.mp3str::
+::res://assets/sounds/::1745181753
 coin.wav::AudioStreamWAV/AudioStreamWAV::540128631005207270::1714300325::1743576909::1::::<><><>0<>0<>d030ffa42773333cda290881e91dbfe8<>res://.godot/imported/coin.wav-9081ee1c6d81d9c34d08bc916297b892.sample::
+death1.mp3::AudioStreamMP3/AudioStreamMP3::7450944549362114934::1745180534::1745180641::1::::<><><>0<>0<>64d88d23639ae3fca40486a05d84730a<>res://.godot/imported/death1.mp3-c6a7c707bad2018d9b1c0022a4781770.mp3str::
+death2.mp3::AudioStreamMP3/AudioStreamMP3::6959421854388544822::1745180587::1745180641::1::::<><><>0<>0<>4365ee9a55602f546f6e463f0cd1c2cd<>res://.godot/imported/death2.mp3-c60d9712d09f988978869c94ed70bd04.mp3str::
 explosion.wav::AudioStreamWAV/AudioStreamWAV::3923250085558049769::1714300325::1743576909::1::::<><><>0<>0<>fb971d0cb6ed6d99a6658d383144bc32<>res://.godot/imported/explosion.wav-52e05e8d4b6600106c8dde082c90f915.sample::
 hurt.wav::AudioStreamWAV/AudioStreamWAV::9136989958465260607::1714300325::1743576909::1::::<><><>0<>0<>3cbb5c1038804b177f51beb78f9e5bb8<>res://.godot/imported/hurt.wav-792baeb99505afd6a1496d4e4330b023.sample::
 jump.wav::AudioStreamWAV/AudioStreamWAV::4555448410108296144::1714300325::1743576909::1::::<><><>0<>0<>343f8ad7743d146e43beacc969590532<>res://.godot/imported/jump.wav-395b727cde98999423d5c020c9c3492f.sample::
 power_up.wav::AudioStreamWAV/AudioStreamWAV::5280086168748845488::1714300325::1743576909::1::::<><><>0<>0<>6b08f8d07d2af27cec66ef6e653fdd3e<>res://.godot/imported/power_up.wav-8349ffe570559470036ebff4b80f7fc0.sample::
 tap.wav::AudioStreamWAV/AudioStreamWAV::8577790250360397841::1714300325::1743576909::1::::<><><>0<>0<>11e068f2699cabdec171045c8a82f79e<>res://.godot/imported/tap.wav-78d4c5a48b21a853d89bec74f20510e7.sample::
-::res://assets/sprites/::1745089155
+win1.mp3::AudioStreamMP3/AudioStreamMP3::3253413650765833689::1745181583::1745181583::1::::<><><>0<>0<>4afa30f862150fb22c0bc9d7aaeb5954<>res://.godot/imported/win1.mp3-5f391981347f489bd8f98bf17fa79189.mp3str::
+win2.mp3::AudioStreamMP3/AudioStreamMP3::697167739422281972::1745181752::1745181753::1::::<><><>0<>0<>931db5dd16a4b69399b4a68fc1feb887<>res://.godot/imported/win2.mp3-8ce8e96c67c1a5cb0384cb22dc4069d0.mp3str::
+::res://assets/sprites/::1745162322
 coin.png::CompressedTexture2D/CompressedTexture2D::3447739040894185057::1714300325::1743576909::1::::<><><>0<>0<>1397839465c1d3ce3903d22734e3a29f<>res://.godot/imported/coin.png-c8309bf0f8fb5f3a7d1e96a4eb3f02ce.ctex::
 fruit.png::CompressedTexture2D/CompressedTexture2D::470233896381552850::1714300325::1743576909::1::::<><><>0<>0<>4b9bc1918614d6be5ecb8c2053c296d3<>res://.godot/imported/fruit.png-3735163b668af10c2b35b52cba81b68a.ctex::
-game2.tscn::PackedScene/PackedScene::-1::1745089155::0::1::::<><><>0<>0<><>::
 knight.png::CompressedTexture2D/CompressedTexture2D::4707526479979974505::1714300325::1743576909::1::::<><><>0<>0<>a55d729596b3e85e2ec9822d1fc0d548<>res://.godot/imported/knight.png-7c67c83d34932624952797d9e971a644.ctex::
 platforms.png::CompressedTexture2D/CompressedTexture2D::6429460309075172824::1714300325::1743576909::1::::<><><>0<>0<>b76f37c88c1c1b4301921917a5b156cb<>res://.godot/imported/platforms.png-3869606db457611ed4193d705dc364e4.ctex::
 slime_green.png::CompressedTexture2D/CompressedTexture2D::3222140907498469096::1714300325::1743576909::1::::<><><>0<>0<>aa7b9bdd9c2e3088cea75040921ac129<>res://.godot/imported/slime_green.png-f6349164bf3a0f5189bb927b97af9c58.ctex::
 slime_purple.png::CompressedTexture2D/CompressedTexture2D::3959724587980025257::1714300325::1743576909::1::::<><><>0<>0<>8a054509a7dd11b68b6bf6d91533d29a<>res://.godot/imported/slime_purple.png-26dc5ddef235ce6a400e78e0d532b050.ctex::
 world_tileset.png::CompressedTexture2D/CompressedTexture2D::263196027477670198::1714300325::1743576909::1::::<><><>0<>0<>64e7503737492fa7671f2bfa2f887e5f<>res://.godot/imported/world_tileset.png-61a32465f33c3d9d3bfecb75b6485009.ctex::
-::res://export/::1745007303
-index.apple-touch-icon.png::CompressedTexture2D/CompressedTexture2D::1401114390724231809::1745007303::1744181848::1::::<><><>0<>0<>6351b935d787597c1977a7123ea33797<>res://.godot/imported/index.apple-touch-icon.png-2786902287ee3c081d87ddba9fd253fe.ctex::
-index.icon.png::CompressedTexture2D/CompressedTexture2D::3034786705562354001::1745007303::1744181848::1::::<><><>0<>0<>7f66b8d17948ceba697a71feb9ab3178<>res://.godot/imported/index.icon.png-3b121a4922cb9cfa20e3529a349a6f72.ctex::
-index.png::CompressedTexture2D/CompressedTexture2D::920067364780443734::1745007303::1744181848::1::::<><><>0<>0<>f90b0eb5fe112438fe24e64307a0d69a<>res://.godot/imported/index.png-de14850a4c2320eaddca8799ea52db2b.ctex::
+::res://export/::1745146559
+index.apple-touch-icon.png::CompressedTexture2D/CompressedTexture2D::1401114390724231809::1745146456::1744181848::1::::<><><>0<>0<>6351b935d787597c1977a7123ea33797<>res://.godot/imported/index.apple-touch-icon.png-2786902287ee3c081d87ddba9fd253fe.ctex::
+index.icon.png::CompressedTexture2D/CompressedTexture2D::3034786705562354001::1745146456::1745146559::1::::<><><>0<>0<>7f66b8d17948ceba697a71feb9ab3178<>res://.godot/imported/index.icon.png-3b121a4922cb9cfa20e3529a349a6f72.ctex::
+index.png::CompressedTexture2D/CompressedTexture2D::920067364780443734::1745146456::1744181848::1::::<><><>0<>0<>f90b0eb5fe112438fe24e64307a0d69a<>res://.godot/imported/index.png-de14850a4c2320eaddca8799ea52db2b.ctex::
 ::res://ImagenesREADMEDig/::1744555048
 COLISIONES.PNG::CompressedTexture2D/CompressedTexture2D::4665600166822079824::1743790045::1744555048::1::::<><><>0<>0<>b17cee6f43686bd241f04b1422ee5760<>res://.godot/imported/COLISIONES.PNG-323e9e9d33a71e1fd6b320cb16f03f7e.ctex::
 KILLZONE.PNG::CompressedTexture2D/CompressedTexture2D::5943466751398312872::1743790480::1744555048::1::::<><><>0<>0<>c6247a702774527ce8b06cfe364f127b<>res://.godot/imported/KILLZONE.PNG-7496a182bcf052cd321496a6c4f6dd7b.ctex::
@@ -51,27 +57,36 @@ KNIGHT.PNG::CompressedTexture2D/CompressedTexture2D::1351210246005011075::174379
 LABEL.PNG::CompressedTexture2D/CompressedTexture2D::4018027508706893272::1743791610::1744555048::1::::<><><>0<>0<>2ab5ed3c514de3bc56ecfbc0a39adc28<>res://.godot/imported/LABEL.PNG-6479ad6885067149dfe6e7787d5cfade.ctex::
 SCORELABEL.PNG::CompressedTexture2D/CompressedTexture2D::8921350608621524999::1743791760::1744555048::1::::<><><>0<>0<>6bbf14181064042fed494dba848aad67<>res://.godot/imported/SCORELABEL.PNG-e3139cb715cfac9f8b5d2815be2691dc.ctex::
 SPRITE.PNG::CompressedTexture2D/CompressedTexture2D::843540410982307450::1743790307::1744555048::1::::<><><>0<>0<>66adfe4c9af3cf41e375257b33058014<>res://.godot/imported/SPRITE.PNG-000f393cec57cc6af6c4e63d5c766c60.ctex::
-::res://scenes/::1745107035
-coin.tscn::PackedScene::1086827868758606395::1745107034::0::1::::<><><>0<>0<><>::uid://bped01tsjeycn::::res://assets/sprites/coin.png<>uid://deufq71fetoew::::res://scripts/coin.gd<>uid://hxv3svfwkg67::::res://assets/sounds/coin.wav
-coño.tscn::PackedScene/PackedScene::-1::1745089385::0::1::::<><><>0<>0<><>::
-game2.tscn::PackedScene::4797903032599754498::1745107035::0::1::::<><><>0<>0<><>::uid://cpn4fn3lgaarw::::res://scripts/game_manager.gd<>uid://dqnaqj8yb6hwd::::res://scenes/player.tscn<>uid://d0q2g65ahgok::::res://assets/sprites/world_tileset.png<>uid://bgv5v2fxqlswe::::res://scenes/platform.tscn<>uid://pqp5qaw561fr::::res://scenes/coin.tscn<>uid://b5hru70n714vt::::res://scenes/killzone.tscn<>uid://d2w2i5h0lhc6l::::res://scenes/slime.tscn<>uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf
-game.tscn::PackedScene::6221769105244979977::1745106923::0::1::::<><><>0<>0<><>::uid://cpn4fn3lgaarw::::res://scripts/game_manager.gd<>uid://dqnaqj8yb6hwd::::res://scenes/player.tscn<>uid://b7n3bfpk2jnbi::::res://assets/music/gentle_breeze.wav<>uid://d0q2g65ahgok::::res://assets/sprites/world_tileset.png<>uid://14ynrsybmy4c::::res://assets/nuevosSprites/Dungeon Tile Set.png<>uid://bgv5v2fxqlswe::::res://scenes/platform.tscn<>uid://pqp5qaw561fr::::res://scenes/coin.tscn<>uid://b5hru70n714vt::::res://scenes/killzone.tscn<>uid://d2w2i5h0lhc6l::::res://scenes/slime.tscn<>uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf<>uid://b4h43ve5or1el::::res://assets/black.jpg
-killzone.tscn::PackedScene::4507606261869413249::1745107035::0::1::::<><><>0<>0<><>::uid://blkjxxrojc71h::::res://scripts/killzone.gd
-level_select.tscn::PackedScene::3548686537568527525::1745107035::0::1::::<><><>0<>0<><>::uid://jittds6apy7t::::res://scripts/level_select.gd<>uid://14ynrsybmy4c::::res://assets/nuevosSprites/Dungeon Tile Set.png<>uid://d0q2g65ahgok::::res://assets/sprites/world_tileset.png<>uid://d1oyklv7fa3hh::::res://assets/fonts/Tiny RPG - Mana Branch.ttf<>uid://cj1xc25v3mgnb::::res://assets/fonts/Tiny RPG - Mana Trunk.ttf<>uid://pp7h36si7l03::::res://assets/music/floating_dream.wav<>uid://b4h43ve5or1el::::res://assets/black.jpg
-loading_level.tscn::PackedScene::129110925227415191::1745107035::0::1::::<><><>0<>0<><>::uid://dygvy2cuj8bw6::::res://scripts/loading_level.gd<>uid://d0q2g65ahgok::::res://assets/sprites/world_tileset.png<>uid://14ynrsybmy4c::::res://assets/nuevosSprites/Dungeon Tile Set.png<>uid://d1oyklv7fa3hh::::res://assets/fonts/Tiny RPG - Mana Branch.ttf<>uid://bg11g88rxr7ag::::res://assets/music/phantom.wav<>uid://b4h43ve5or1el::::res://assets/black.jpg
-main_menu.tscn::PackedScene::1228373493784711351::1745107035::0::1::::<><><>0<>0<><>::uid://cycngguyeit18::::res://main_menu.gd<>uid://xg4k8esnw48j::::res://assets/fonts/Tiny RPG - Mana Root.ttf<>uid://d0q2g65ahgok::::res://assets/sprites/world_tileset.png<>uid://pp7h36si7l03::::res://assets/music/floating_dream.wav<>uid://b4h43ve5or1el::::res://assets/black.jpg
-mononono.tscn::PackedScene::3787350361467807092::1745107035::0::1::::<><><>0<>0<><>::uid://bped01tsjeycn::::res://assets/sprites/coin.png<>uid://deufq71fetoew::::res://scripts/coin.gd<>uid://hxv3svfwkg67::::res://assets/sounds/coin.wav
-music.tscn::PackedScene::2056532590634627605::1745107035::0::1::::<><><>0<>0<><>::
-platform.tscn::PackedScene::2852766116732873392::1745107035::0::1::::<><><>0<>0<><>::uid://cxuqjimd7csiq::::res://assets/sprites/platforms.png
-player.tscn::PackedScene::8309149557574787539::1745107034::0::1::::<><><>0<>0<><>::uid://dxns2e81t3hjr::::res://scripts/player.gd<>uid://b8cmjj8vq3r8d::::res://assets/sprites/knight.png
-slime.tscn::PackedScene::9101432372716425337::1745107035::0::1::::<><><>0<>0<><>::uid://dnw56v518yfax::::res://scripts/slime.gd<>uid://bl53gpvg5mh1y::::res://assets/sprites/slime_green.png
-tutorial.tscn::PackedScene::1042585166838168701::1745107035::0::1::::<><><>0<>0<><>::uid://cpn4fn3lgaarw::::res://scripts/game_manager.gd<>uid://dqnaqj8yb6hwd::::res://scenes/player.tscn<>uid://d0q2g65ahgok::::res://assets/sprites/world_tileset.png<>uid://bgv5v2fxqlswe::::res://scenes/platform.tscn<>uid://pqp5qaw561fr::::res://scenes/coin.tscn<>uid://b5hru70n714vt::::res://scenes/killzone.tscn<>uid://d2w2i5h0lhc6l::::res://scenes/slime.tscn<>uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf
-::res://scripts/::1745107034
-coin.gd::GDScript::7481638859524343886::1745107034::0::1::::<>Area2D<><>0<>0<><>::
-game_manager.gd::GDScript/GDScript::5854281381085100696::1745096527::0::1::::<>Node<><>0<>0<><>::
+::res://scenes/::1745182427
+bicho.tscn::PackedScene::3239043640961755892::1745182275::0::1::::<><><>0<>0<><>::uid://np1eu3ts0uog::::res://scripts/bicho.gd<>uid://7e4ggqrqltlx::::res://assets/nuevosSprites/0x72_DungeonTilesetII_v1.7.png
+chest.tscn::PackedScene::6534083854268761809::1745182274::0::1::::<><><>0<>0<><>::uid://dqiukfrwc1ud0::::res://scripts/chest.gd<>uid://7e4ggqrqltlx::::res://assets/nuevosSprites/0x72_DungeonTilesetII_v1.7.png<>uid://bv5pmdha600lx::::res://assets/sounds/explosion.wav
+coin.tscn::PackedScene::1086827868758606395::1745182273::0::1::::<><><>0<>0<><>::uid://bped01tsjeycn::::res://assets/sprites/coin.png<>uid://deufq71fetoew::::res://scripts/coin.gd<>uid://hxv3svfwkg67::::res://assets/sounds/coin.wav
+death.gd::GDScript::2703399072202677210::1745181090::0::1::::<>Control<><>0<>0<><>::
+death.tscn::PackedScene::5200277584031201135::1745182275::0::1::::<><><>0<>0<><>::uid://berst8o3k2g7k::::res://scenes/death.gd<>uid://14ynrsybmy4c::::res://assets/nuevosSprites/Dungeon Tile Set.png<>uid://d0q2g65ahgok::::res://assets/sprites/world_tileset.png<>uid://d1oyklv7fa3hh::::res://assets/fonts/Tiny RPG - Mana Branch.ttf<>uid://defj76fo2mc4e::::res://assets/sounds/death1.mp3<>uid://b4h43ve5or1el::::res://assets/black.jpg<>uid://c6fgwqkeukwck::::res://assets/sounds/death2.mp3
+game2.tscn::PackedScene::4797903032599754498::1745182274::0::1::::<><><>0<>0<><>::uid://cpn4fn3lgaarw::::res://scripts/game_manager.gd<>uid://dqnaqj8yb6hwd::::res://scenes/player.tscn<>uid://d0q2g65ahgok::::res://assets/sprites/world_tileset.png<>uid://pqp5qaw561fr::::res://scenes/coin.tscn<>uid://b5hru70n714vt::::res://scenes/killzone.tscn<>uid://14ynrsybmy4c::::res://assets/nuevosSprites/Dungeon Tile Set.png<>uid://7e4ggqrqltlx::::res://assets/nuevosSprites/0x72_DungeonTilesetII_v1.7.png<>uid://d2w2i5h0lhc6l::::res://scenes/slime.tscn<>uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf<>uid://bmfattk5cix45::::res://scenes/bicho.tscn<>uid://b4h43ve5or1el::::res://assets/black.jpg<>uid://ctmf375titl72::::res://scenes/slime_ii.tscn<>uid://dogqo62n4fc8o::::res://assets/music/dungeon.mp3
+game.tscn::PackedScene::6221769105244979977::1745182273::0::1::::<><><>0<>0<><>::uid://cpn4fn3lgaarw::::res://scripts/game_manager.gd<>uid://dqnaqj8yb6hwd::::res://scenes/player.tscn<>uid://b7n3bfpk2jnbi::::res://assets/music/gentle_breeze.wav<>uid://d0q2g65ahgok::::res://assets/sprites/world_tileset.png<>uid://14ynrsybmy4c::::res://assets/nuevosSprites/Dungeon Tile Set.png<>uid://bgv5v2fxqlswe::::res://scenes/platform.tscn<>uid://pqp5qaw561fr::::res://scenes/coin.tscn<>uid://b5hru70n714vt::::res://scenes/killzone.tscn<>uid://7e4ggqrqltlx::::res://assets/nuevosSprites/0x72_DungeonTilesetII_v1.7.png<>uid://d2w2i5h0lhc6l::::res://scenes/slime.tscn<>uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf<>uid://c0dfn23wakvsj::::res://scenes/chest.tscn<>uid://b4h43ve5or1el::::res://assets/black.jpg<>uid://d1oyklv7fa3hh::::res://assets/fonts/Tiny RPG - Mana Branch.ttf
+killzone.tscn::PackedScene::4507606261869413249::1745182273::0::1::::<><><>0<>0<><>::uid://blkjxxrojc71h::::res://scripts/killzone.gd
+level_select.tscn::PackedScene::3548686537568527525::1745182273::0::1::::<><><>0<>0<><>::uid://jittds6apy7t::::res://scripts/level_select.gd<>uid://14ynrsybmy4c::::res://assets/nuevosSprites/Dungeon Tile Set.png<>uid://d0q2g65ahgok::::res://assets/sprites/world_tileset.png<>uid://d1oyklv7fa3hh::::res://assets/fonts/Tiny RPG - Mana Branch.ttf<>uid://cj1xc25v3mgnb::::res://assets/fonts/Tiny RPG - Mana Trunk.ttf<>uid://pp7h36si7l03::::res://assets/music/floating_dream.wav<>uid://b4h43ve5or1el::::res://assets/black.jpg
+loading_level2.tscn::PackedScene::6140366584713258494::1745182275::0::1::::<><><>0<>0<><>::uid://bww2nlaxjym3y::::res://scripts/loading_level_2.gd<>uid://d0q2g65ahgok::::res://assets/sprites/world_tileset.png<>uid://14ynrsybmy4c::::res://assets/nuevosSprites/Dungeon Tile Set.png<>uid://d1oyklv7fa3hh::::res://assets/fonts/Tiny RPG - Mana Branch.ttf<>uid://bg11g88rxr7ag::::res://assets/music/phantom.wav<>uid://b4h43ve5or1el::::res://assets/black.jpg
+loading_level.tscn::PackedScene::129110925227415191::1745182274::0::1::::<><><>0<>0<><>::uid://dygvy2cuj8bw6::::res://scripts/loading_level.gd<>uid://d0q2g65ahgok::::res://assets/sprites/world_tileset.png<>uid://14ynrsybmy4c::::res://assets/nuevosSprites/Dungeon Tile Set.png<>uid://d1oyklv7fa3hh::::res://assets/fonts/Tiny RPG - Mana Branch.ttf<>uid://bg11g88rxr7ag::::res://assets/music/phantom.wav<>uid://b4h43ve5or1el::::res://assets/black.jpg
+main_menu.tscn::PackedScene::1228373493784711351::1745182273::0::1::::<><><>0<>0<><>::uid://cycngguyeit18::::res://main_menu.gd<>uid://xg4k8esnw48j::::res://assets/fonts/Tiny RPG - Mana Root.ttf<>uid://d0q2g65ahgok::::res://assets/sprites/world_tileset.png<>uid://d1oyklv7fa3hh::::res://assets/fonts/Tiny RPG - Mana Branch.ttf<>uid://co2k7cobyuwyw::::res://assets/quit/luigi.jpeg<>uid://1p3oaf2408lt::::res://assets/quit/scream.mp3<>uid://pp7h36si7l03::::res://assets/music/floating_dream.wav<>uid://b4h43ve5or1el::::res://assets/black.jpg
+platform.tscn::PackedScene::2852766116732873392::1745174139::0::1::::<><><>0<>0<><>::uid://cxuqjimd7csiq::::res://assets/sprites/platforms.png
+player.tscn::PackedScene::8309149557574787539::1745182273::0::1::::<><><>0<>0<><>::uid://dxns2e81t3hjr::::res://scripts/player.gd<>uid://b8cmjj8vq3r8d::::res://assets/sprites/knight.png
+slime.tscn::PackedScene::9101432372716425337::1745182275::0::1::::<><><>0<>0<><>::uid://dnw56v518yfax::::res://scripts/slime.gd<>uid://bl53gpvg5mh1y::::res://assets/sprites/slime_green.png
+slime_ii.tscn::PackedScene::6131557244716765567::1745182275::0::1::::<><><>0<>0<><>::uid://bjbcxv0xqikuq::::res://scripts/slime_ii.gd<>uid://7e4ggqrqltlx::::res://assets/nuevosSprites/0x72_DungeonTilesetII_v1.7.png
+tutorial.tscn::PackedScene::1042585166838168701::1745182274::0::1::::<><><>0<>0<><>::uid://cpn4fn3lgaarw::::res://scripts/game_manager.gd<>uid://b4h43ve5or1el::::res://assets/black.jpg<>uid://dqnaqj8yb6hwd::::res://scenes/player.tscn<>uid://d0q2g65ahgok::::res://assets/sprites/world_tileset.png<>uid://bgv5v2fxqlswe::::res://scenes/platform.tscn<>uid://pqp5qaw561fr::::res://scenes/coin.tscn<>uid://b5hru70n714vt::::res://scenes/killzone.tscn<>uid://d2w2i5h0lhc6l::::res://scenes/slime.tscn<>uid://dbjl1e6kdxpl6::::res://assets/fonts/PixelOperator8.ttf
+win.tscn::PackedScene::927208194257108440::1745182427::0::1::::<><><>0<>0<><>::uid://14ynrsybmy4c::::res://assets/nuevosSprites/Dungeon Tile Set.png<>uid://c6ivjixy3dvcp::::res://scripts/win.gd<>uid://d0q2g65ahgok::::res://assets/sprites/world_tileset.png<>uid://b4h43ve5or1el::::res://assets/black.jpg<>uid://d1oyklv7fa3hh::::res://assets/fonts/Tiny RPG - Mana Branch.ttf<>uid://bml8iodxcd35v::::res://assets/sounds/win1.mp3<>uid://j6yir64rg3sa::::res://assets/sounds/win2.mp3
+::res://scripts/::1745182273
+bicho.gd::GDScript::945007513202725114::1745167215::0::1::::<>Node2D<><>0<>0<><>::
+chest.gd::GDScript::8300031058996400703::1745160056::0::1::::<>Area2D<><>0<>0<><>::
+coin.gd::GDScript/GDScript::7481638859524343886::1745107034::0::1::::<>Area2D<><>0<>0<><>::
+game_manager.gd::GDScript::5854281381085100696::1745182273::0::1::::<>Node<><>0<>0<><>::
 killzone.gd::GDScript/GDScript::3179730502393733659::1745001435::0::1::::<>Area2D<><>0<>0<><>::
 level_select.gd::GDScript/GDScript::649402354507171979::1745104324::0::1::::<>Control<><>0<>0<><>::
-loading_level.gd::GDScript::8857499902960349479::1745104780::0::1::::<>Control<><>0<>0<><>::
-mondongo.gd::GDScript::3323173848720362799::1745106889::0::1::::<>Area2D<><>0<>0<><>::
-player.gd::GDScript/GDScript::8801583750141820271::1745077876::0::1::::<>CharacterBody2D<><>0<>0<><>::
+loading_level.gd::GDScript/GDScript::8857499902960349479::1745104780::0::1::::<>Control<><>0<>0<><>::
+loading_level_2.gd::GDScript::3977654707259438256::1745175112::0::1::::<>Control<><>0<>0<><>::
+mondongo.gd::GDScript/GDScript::3323173848720362799::1745106889::0::1::::<>Area2D<><>0<>0<><>::
+player.gd::GDScript::8801583750141820271::1745174569::0::1::::<>CharacterBody2D<><>0<>0<><>::
 slime.gd::GDScript/GDScript::8119011348917939643::1745001435::0::1::::<>Node2D<><>0<>0<><>::
+slime_ii.gd::GDScript::3020348304111984064::1745174675::0::1::::<>Node2D<><>0<>0<><>::
+win.gd::GDScript::6966502128036236607::1745181849::0::1::::<>Control<><>0<>0<><>::

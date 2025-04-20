@@ -1,0 +1,66 @@
+[gd_scene load_steps=9 format=3 uid="uid://ctmf375titl72"]
+
+[ext_resource type="Script" uid="uid://bjbcxv0xqikuq" path="res://scripts/slime_ii.gd" id="1_x4loy"]
+[ext_resource type="Texture2D" uid="uid://7e4ggqrqltlx" path="res://assets/nuevosSprites/0x72_DungeonTilesetII_v1.7.png" id="2_0we03"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lm6xw"]
+atlas = ExtResource("2_0we03")
+region = Rect2(368, 112, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lbki5"]
+atlas = ExtResource("2_0we03")
+region = Rect2(384, 112, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eg8bv"]
+atlas = ExtResource("2_0we03")
+region = Rect2(400, 112, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4a350"]
+atlas = ExtResource("2_0we03")
+region = Rect2(416, 112, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_418vg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lm6xw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lbki5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eg8bv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4a350")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2d3th"]
+radius = 6.18466
+
+[node name="Slime II" type="Node2D" groups=["Enemy"]]
+script = ExtResource("1_x4loy")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_418vg")
+autoplay = "default"
+frame_progress = 0.600651
+
+[node name="RayCastRight" type="RayCast2D" parent="."]
+target_position = Vector2(9, 0)
+
+[node name="RayCastLeft" type="RayCast2D" parent="."]
+target_position = Vector2(-9, 0)
+
+[node name="Area2D2" type="Area2D" parent="."]
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(0, 1)
+shape = SubResource("CircleShape2D_2d3th")
+
+[connection signal="body_entered" from="Area2D2" to="." method="_on_area_2d_2_body_entered"]

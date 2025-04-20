@@ -7,7 +7,7 @@
 [ext_resource type="AudioStream" uid="uid://bg11g88rxr7ag" path="res://assets/music/phantom.wav" id="4_lca3d"]
 [ext_resource type="Texture2D" uid="uid://b4h43ve5or1el" path="res://assets/black.jpg" id="5_8tswm"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bcc4i"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lca3d"]
 texture = ExtResource("1_w7sss")
 0:0/0 = 0
 1:0/0 = 0
@@ -137,7 +137,7 @@ texture = ExtResource("1_w7sss")
 2:15/0 = 0
 3:15/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lca3d"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8tswm"]
 texture = ExtResource("2_vij3v")
 1:1/0 = 0
 2:1/0 = 0
@@ -274,8 +274,8 @@ texture = ExtResource("2_vij3v")
 12:15/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_8tswm"]
-sources/0 = SubResource("TileSetAtlasSource_bcc4i")
-sources/2 = SubResource("TileSetAtlasSource_lca3d")
+sources/0 = SubResource("TileSetAtlasSource_lca3d")
+sources/2 = SubResource("TileSetAtlasSource_8tswm")
 
 [sub_resource type="Animation" id="Animation_7qpu7"]
 resource_name = "load"
@@ -432,10 +432,10 @@ libraries = {
 
 [node name="Label2" type="Label" parent="."]
 layout_mode = 0
-offset_left = 370.0
-offset_top = 305.0
-offset_right = 765.0
-offset_bottom = 395.0
+offset_left = 361.0
+offset_top = 247.0
+offset_right = 756.0
+offset_bottom = 337.0
 theme_override_colors/font_color = Color(0.0500001, 1, 0, 1)
 theme_override_fonts/font = ExtResource("3_bcc4i")
 theme_override_font_sizes/font_size = 89
@@ -443,10 +443,10 @@ text = "Cagando nivel..."
 
 [node name="Label3" type="Label" parent="."]
 layout_mode = 0
-offset_left = 370.0
-offset_top = 305.0
-offset_right = 765.0
-offset_bottom = 395.0
+offset_left = 361.0
+offset_top = 247.0
+offset_right = 756.0
+offset_bottom = 337.0
 theme_override_colors/font_color = Color(0.00374217, 0, 0.733736, 1)
 theme_override_fonts/font = ExtResource("3_bcc4i")
 theme_override_font_sizes/font_size = 89
