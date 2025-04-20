@@ -233,28 +233,66 @@ Este trabajo consta de las horas propuestas en la clase de Digitalización, y s�
 
 ***
 
-# Tercera Evaluación: ¿Qué hay nuevo?
+# Tercera Evaluación: ¿Qué hay por contar?
 ## Nuevas escenas
-  Estas incluyen menú principal, escena de muerte y de ganar, selección de mapas...
+Estas son las nuevas escenas:
+  1. Menú principal 
+  2. Escena de muerte 
+  3. Escena de ganar
+  4. Selección de mapas 
+  5. **Dos niveles completamente nuevos** 
+  6. Sin contar los dos niveles se incluye un **nivel tutorial**
+  7. Escenas de carga de niveles para hacer transiciones 
+
+  ...y _creo que ya_.
 
 ---
 
 ## Nuevos enemigos
-  En el segundo nivel se puede encontrar 2 nuevos enemigos: "Bicho" (Es un ente volador), y un Slime nuevo, más lento y distinto en general.
+  En el segundo nivel _(Se llama Mazmorras)_, se puede encontrar 2 nuevos enemigos: "Bicho" (Es un ente volador que va más rápido _yendo de ida que de vuelta_), y **Slime II**, que es un Slime morado con una **animación completamente nueva**, más lento para hacer el _parkour_ más difícil.
 
 ---
 
 ## Nuevas acciones para el personaje
 
-  Se añade la opción de rodar para un momento de invulnerabilidad al SHIFT, y se le incluyen vidas para no morirse al instante.
+  Se añade la opción de _rodar_ para un momento de **_invulnerabilidad_** a la tecla  _SHIFT_.
+
+He añadido un sistema de **puntos de Vida**, para que sea más fácil el juego    
+  * (He de decir que si no sería **imposible** o por lo menos te lleva muchas horas).
+
+Sin lugar a duda, el dolor de cabeza ha sido en el _Script player.gd_.
 
 ---
 
 ## Nuevos sonidos y sprites
 
   _Para poder generar el segundo nivel (y algunas otras cosas como las interfaces de la vida o el cofre del primer nivel), he tenido que descargar nuevos paquetes de sprites y hacer un mundo nuevo con ellos. Además, también se incluyen nuevos sonidos y soundtracks para cada escena._
-  
 
-# No está muy bien escrito, pero me he quedado sin tiempo para redactar el readme. Lo siento mucho y gracias por leer, como siempre. 
+  1. Dos _tilesets_ enteros para la creación de la _Dungeon_
+  2. Imágenes para el secreto y la salida del juego
+  3. Nueva música para cada escena 
+      1. No se repite casi ninguna canción
+  4. Nuevos sonidos
+      1. Especialmente para las escenas _win_ y _death_
 
-  **De todas maneras, lo explicaré mucho mejor en la presentación. ¡Gracias!**
+***
+
+## Pinchos funcionales
+
+Parece mentira que haga falta meter un apartado que sean _pinchos_, pero el trabajo que ha costado lo merece. Al final se ha reducido a meramente **reutilizar la escena killzone** que no había usado desde hace mucho para cada zona de pinchos.
+* Cuidado aquí porque como no estén bien separadas las colisiones de cada zona, puede que se líe y _se muevan todas las colisiones a la vez_. Esto suele pasar porque al hacer una duplicación o copia de un objeto, al mover el _padre_ (del que lo copias), mueve ese y todos los que hayas copiado de él. Muy raro.
+
+___
+
+## ¡Conexión remota!
+
+Gracias a Docker y una página llamada _render.com_ he podido exportar mi proyecto para que sea jugable por otras personas. El día de mi presentación espero, si todo sale favorable, el poder abrir el enlace para que todos lo prueben. 
+
+* Para que esta conexión sea posible, requiere un dockerfile con base en Nginx (ya que la exportación, lo que se abre es un _html_), acceso al repositorio público y que el contenedor esté encendido. 
+  * Hay que tener cuidado con que se encienda en render un commit antiguo. **Es completamente necesario que el contenedor esté actualizado.**
+
+___
+
+ Con esto, creo que cubro todo lo que he estado haciendo en estas pocas semanas. Lleva bastante más trabajo del que uno se llega a imaginar.
+
+ # Muchas gracias por leer y por la paciencia. ¡Espero que te guste la presentación!
